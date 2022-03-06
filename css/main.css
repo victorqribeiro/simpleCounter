@@ -1,0 +1,37 @@
+html, body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    font: 100%;
+}
+
+div {
+  font-size: 10em;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 0.8em;
+}
+
+.negative {
+  color: red;
+}
+
+.positive {
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  div {
+    font-size: 6em;
+  }
+}
